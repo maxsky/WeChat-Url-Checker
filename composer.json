@@ -1,0 +1,30 @@
+{
+    "name": "maxsky/wechat-url-checker",
+    "description": "Check url available in WeChat",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MaxSky\\": "src/"
+        },
+        "files": [
+            "src/Constant/url.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Max Sky",
+            "email": "max940213@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}

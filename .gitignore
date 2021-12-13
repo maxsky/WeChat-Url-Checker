@@ -1,0 +1,6 @@
+/.idea
+/report
+/vendor
+
+*.lock
+.phpunit.result.cache
